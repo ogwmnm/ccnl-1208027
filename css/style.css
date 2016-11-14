@@ -1,0 +1,53 @@
+.cover {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.main {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  min-height: 100%;
+  background-color: #999;
+}
+
+.forward-btn {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  margin-left: -20px;
+  display: inline-block;
+  width: 40px;
+  font-family: "Glyphicons Halflings";
+  font-size: 36px;
+  text-align: center;
+  text-shadow: 0 12px 0 #fff;
+  color: #fff;
+}
+
+.forward-btn::before {
+  content: "\e259";
+}
+
+.forward-btn:hover,
+.forward-btn:focus {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hover-scale-up {
+  transition: transform .3s;
+}
+
+.hover-scale-up:hover {
+  transform: scale(1.2);
+}
