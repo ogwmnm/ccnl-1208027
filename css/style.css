@@ -27,10 +27,16 @@
 /*  タイトル
 -----------------------------*/
 .title {
-  font-size: 52px;
+  font-size: 36px;
   font-weight: bold;
   text-shadow: 2px 2px 1px rgba(0,0,0,.8);
   color: #fff;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 52px;
+  }
 }
 
 
@@ -38,11 +44,16 @@
 -----------------------------*/
 .description {
   margin: 40px 0 0;
-  font-size: 24px;
+  font-size: 16px;
   text-shadow: 1px 1px 1px rgba(0,0,0,.8);
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  .description {
+    font-size: 24px;
+  }
+}
 
 /*  ３つボタン
 -----------------------------*/
